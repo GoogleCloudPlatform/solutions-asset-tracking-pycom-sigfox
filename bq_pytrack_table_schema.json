@@ -1,0 +1,104 @@
+[
+    {
+        "name": "device",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "time",
+        "type": "TIMESTAMP",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "data",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "seqNumber",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "lat",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "lng",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "roll",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "pitch",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "volt",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "lqi",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+        {
+        "name": "fixedLat",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "fixedLng",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "operatorName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "countryCode",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "computedLocation",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+            {
+                "name": "lat",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "lng",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "radius",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "source",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "status",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            }
+        ]
+    }
+]

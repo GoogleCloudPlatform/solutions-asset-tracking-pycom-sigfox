@@ -3,7 +3,7 @@
 This solution tutorial demonstrates how to use a Pycom device, the Sigfox network,
 and Google Cloud to track the position of physical assets.
 
-Please refer to [this article]() for the steps to run the code.
+Please refer to [this article](https://cloud.google.com/solutions/tracking-assets-with-iot-devices-pycom-sigfox-gcp) for the steps to run the code.
 
 ## Contents of this repository
 
